@@ -1,0 +1,14 @@
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 500px;
+    align-items: center;
+}
+
+h1{
+    color:white;
+}
+
