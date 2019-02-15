@@ -8,17 +8,19 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            text: "Some fancy header here"
+            text: "Much wow."
         };
     }
 
     render() {
         return (
             <header className="header">
-                <h1> { this.state.text } </h1>
+                <h1 className="header-text"> { this.state.text } </h1>
             </header>
+
         )
     }
 }
 
 export default Header;
+
