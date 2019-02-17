@@ -13,18 +13,12 @@ class Footer extends React.Component {
     
     render() {
         return (
-            
 
             <footer className="flex-container black-container">
 
-                <h1>Do not contact me</h1>
+                <h1>Such contact</h1>
 
             </footer>
-            
-            
-
-               
-            
         );
     }
 }

@@ -8,16 +8,15 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            text: "Much wow."
+            text: "WHÆT."
         };
     }
 
     render() {
         return (
             <header className="header">
-                <h1 className="header-text"> { this.state.text } </h1>
+                <h1 className="header-text"> {this.state.text} </h1>
             </header>
-
         )
     }
 }
